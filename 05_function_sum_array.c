@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void sum_array(double *arr, double *sum, double Size_of){
+void sum_array(double *arr, double *sum, int Size_of){
     for(int i = 0; i < Size_of; i++){
         *sum += *(arr+i);
     }
